@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,692.946" tests="7" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SaaS-Selenium_Testing/82/display/redirect"/>
+    <property name="HUDSON_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SaaS-Selenium_Testing/82/display/redirect?page=changes"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="873c9e4a50eb5132"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="USERNAME" value="US-PF2004MS$"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-4.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 57531"/>
+    <property name="maven.home" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="POM_GROUPID" value="com.dxc.glTestAutomation_chrome"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="JENKINS_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_DISPLAY_NAME" value="#82"/>
+    <property name="PROCESSOR_IDENTIFIER" value="AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD"/>
+    <property name="maven3.interceptor" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
+    <property name="PATH+MAVEN" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="maven3.interceptor.common" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="WORKSPACE_TMP" value="C:\ProgramData\Jenkins\.jenkins\workspace\SaaS-Selenium_Testing@tmp"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_311"/>
+    <property name="user.name" value="US-PF2004MS$"/>
+    <property name="POM_ARTIFACTID" value="com.dxc.glTestAutomation_chrome"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="APPDATA" value="C:\windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="WORKSPACE" value="C:\ProgramData\Jenkins\.jenkins\workspace\SaaS-Selenium_Testing"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_311\bin;C:\DevOps\apache-tomcat-9.0.55\bin;C:\DevOps\apache-maven-3.8.4\bin;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.io.tmpdir" value="C:\windows\TEMP\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="CI" value="true"/>
+    <property name="COMPUTERNAME" value="US-PF2004MS"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JOB_BASE_NAME" value="SaaS-Selenium_Testing"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_311\bin;C:\DevOps\apache-tomcat-9.0.55\bin;C:\DevOps\apache-maven-3.8.4\bin;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="BUILD_NUMBER" value="82"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SaaS-Selenium_Testing/82/"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/SaaS-Selenium_Testing/82/display/redirect?page=artifacts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="POM_DISPLAYNAME" value="com.dxc.glTestAutomation"/>
+    <property name="NUMBER_OF_PROCESSORS" value="12"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="surefire.suiteXmlFiles" value="C:\Testing\SAAS\com.dxc.glTestAutomation_chrome\testng.xml"/>
+    <property name="PROCESSOR_LEVEL" value="23"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/SaaS-Selenium_Testing/"/>
+    <property name="java.class.path" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Microsoft Monitoring Agent\Agent\PowerShell\;C:\Program Files\Microsoft Monitoring Agent\Agent\AzureAutomation\7.3.1455.1"/>
+    <property name="user.variant" value=""/>
+    <property name="MAVEN_HOME" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/SaaS-Selenium_Testing/82/display/redirect?page=tests"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="BUILD_TAG" value="jenkins-SaaS-Selenium_Testing-82"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="__PSLockDownPolicy" value="0"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SaaS-Selenium_Testing/display/redirect"/>
+    <property name="M2_HOME" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
+    <property name="LOCALAPPDATA" value="C:\windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="path.separator" value=";"/>
+    <property name="BUILD_ID" value="82"/>
+    <property name="os.version" value="10.0"/>
+    <property name="BASE" value="C:\Program Files\Jenkins"/>
+    <property name="JOB_NAME" value="SaaS-Selenium_Testing"/>
+    <property name="MAVEN_OPTS" value=""/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="user.dir" value="C:\Testing\SAAS\com.dxc.glTestAutomation_chrome"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="HUDSON_SERVER_COOKIE" value="873c9e4a50eb5132"/>
+    <property name="CATALINA_HOME" value="C:\DevOps\apache-tomcat-9.0.55"/>
+    <property name="PROCESSOR_REVISION" value="6001"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="TEMP" value="C:\windows\TEMP"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="USERPROFILE" value="C:\windows\system32\config\systemprofile"/>
+    <property name="TMP" value="C:\windows\TEMP"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCase1001" classname="com.dxc.testcases.GL010_01" time="266.605"/>
+  <testcase name="testCase1002" classname="com.dxc.testcases.GL010_02" time="430.648"/>
+  <testcase name="testCase1003" classname="com.dxc.testcases.GL010_03" time="204.401">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, &apos;Journal_b571 &apos;) and text()=&apos;Approve&apos;] (tried for 60 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, 'Journal_b571 ') and text()='Approve'] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_03.testCase1003(GL010_03.java:94)
+</failure>
+    <system-out><![CDATA[Test Script designed and developed by DXC Technology. Confidential Information.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 9788
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 30, 2023 7:30:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCase1004" classname="com.dxc.testcases.GL010_04" time="106.131">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, &apos;Journal_b571_Copy1 &apos;) and text()=&apos;Reject&apos;] (tried for 60 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, 'Journal_b571_Copy1 ') and text()='Reject'] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_04.testCase1004(GL010_04.java:95)
+</failure>
+    <system-out><![CDATA[Test Script designed and developed by DXC Technology. Confidential Information.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 15599
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 30, 2023 7:34:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCase1006" classname="com.dxc.testcases.GL010_06" time="303.42">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: *//a[text()=&apos;Journal_571&apos;] (tried for 60 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: *//a[text()='Journal_571'] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_06.testCase1006(GL010_06.java:115)
+</failure>
+    <system-out><![CDATA[Test Script designed and developed by DXC Technology. Confidential Information.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 24417
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 30, 2023 7:35:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCase2001" classname="com.dxc.testcases.GL020_01" time="287.311"/>
+  <testcase name="testCase2002" classname="com.dxc.testcases.GL020_02" time="93.247">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; onclick=&quot;this.focus();return false&quot; class=&quot;xre&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (252, 268). Other element would receive the click: &lt;span class=&quot;af_column_label-text&quot;&gt;...&lt;/span&gt;&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;US-PF2004MS&apos;, ip: &apos;192.168.74.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4e9f8175055e622471091276978d80ff" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" onclick="this.focus();return false" class="xre" role="button">...</a> is not clickable at point (252, 268). Other element would receive the click: <span class="af_column_label-text">...</span>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'US-PF2004MS', ip: '192.168.74.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e9f8175055e622471091276978d80ff
+	at com.dxc.testcases.GL020_02.testCase2002(GL020_02.java:101)
+]]></failure>
+    <system-out><![CDATA[Test Script designed and developed by DXC Technology. Confidential Information.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 4728
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 30, 2023 7:45:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

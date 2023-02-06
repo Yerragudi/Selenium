@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1,692.946 s <<< FAILURE! - in TestSuite
+testCase1003(com.dxc.testcases.GL010_03)  Time elapsed: 204.401 s  <<< FAILURE!
+java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, 'Journal_b571 ') and text()='Approve'] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_03.testCase1003(GL010_03.java:94)
+
+testCase1004(com.dxc.testcases.GL010_04)  Time elapsed: 106.131 s  <<< FAILURE!
+java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, 'Journal_b571_Copy1 ') and text()='Reject'] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_04.testCase1004(GL010_04.java:95)
+
+testCase1006(com.dxc.testcases.GL010_06)  Time elapsed: 303.42 s  <<< FAILURE!
+java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: *//a[text()='Journal_571'] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_06.testCase1006(GL010_06.java:115)
+
+testCase2002(com.dxc.testcases.GL020_02)  Time elapsed: 93.247 s  <<< FAILURE!
+java.lang.AssertionError: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" onclick="this.focus();return false" class="xre" role="button">...</a> is not clickable at point (252, 268). Other element would receive the click: <span class="af_column_label-text">...</span>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'US-PF2004MS', ip: '192.168.74.254', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e9f8175055e622471091276978d80ff
+	at com.dxc.testcases.GL020_02.testCase2002(GL020_02.java:101)
+

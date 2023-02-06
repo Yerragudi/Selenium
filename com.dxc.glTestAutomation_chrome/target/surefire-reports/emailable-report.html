@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">1,691,789</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.dxc.testcases.GL010_03</td><td><a href="#m0">testCase1003</a></td><td rowspan="1">1675087244570</td><td rowspan="1">204394</td></tr><tr class="failedodd"><td rowspan="1">com.dxc.testcases.GL010_04</td><td><a href="#m1">testCase1004</a></td><td rowspan="1">1675087448970</td><td rowspan="1">106132</td></tr><tr class="failedeven"><td rowspan="1">com.dxc.testcases.GL010_06</td><td><a href="#m2">testCase1006</a></td><td rowspan="1">1675087555103</td><td rowspan="1">303419</td></tr><tr class="failedodd"><td rowspan="1">com.dxc.testcases.GL020_02</td><td><a href="#m3">testCase2002</a></td><td rowspan="1">1675088145835</td><td rowspan="1">93246</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.dxc.testcases.GL010_01</td><td><a href="#m4">testCase1001</a></td><td rowspan="1">1675086547316</td><td rowspan="1">266606</td></tr><tr class="passedodd"><td rowspan="1">com.dxc.testcases.GL010_02</td><td><a href="#m5">testCase1002</a></td><td rowspan="1">1675086813922</td><td rowspan="1">430647</td></tr><tr class="passedeven"><td rowspan="1">com.dxc.testcases.GL020_01</td><td><a href="#m6">testCase2001</a></td><td rowspan="1">1675087858523</td><td rowspan="1">287311</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.dxc.testcases.GL010_03#testCase1003</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, &apos;Journal_b571 &apos;) and text()=&apos;Approve&apos;] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_03.testCase1003(GL010_03.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.dxc.testcases.GL010_04#testCase1004</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: *//button[contains(@title, &apos;Journal_b571_Copy1 &apos;) and text()=&apos;Reject&apos;] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_04.testCase1004(GL010_04.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.dxc.testcases.GL010_06#testCase1006</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: *//a[text()=&apos;Journal_571&apos;] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.dxc.testcases.GL010_06.testCase1006(GL010_06.java:115)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.dxc.testcases.GL020_02#testCase2002</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; onclick=&quot;this.focus();return false&quot; class=&quot;xre&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (252, 268). Other element would receive the click: &lt;span class=&quot;af_column_label-text&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;US-PF2004MS&apos;, ip: &apos;192.168.74.254&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e9f8175055e622471091276978d80ff
+	at com.dxc.testcases.GL020_02.testCase2002(GL020_02.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.dxc.testcases.GL010_01#testCase1001</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.dxc.testcases.GL010_02#testCase1002</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.dxc.testcases.GL020_01#testCase2001</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+#surefire_0
+#Mon Jan 30 19:19:05 IST 2023
+basedir=C\:\\Testing\\SAAS\\com.dxc.glTestAutomation_chrome
+surefire.suiteXmlFiles=C\:\\Testing\\SAAS\\com.dxc.glTestAutomation_chrome\\testng.xml
+user.dir=C\:\\Testing\\SAAS\\com.dxc.glTestAutomation_chrome
+localRepository=C\:\\windows\\system32\\config\\systemprofile\\.m2\\repository

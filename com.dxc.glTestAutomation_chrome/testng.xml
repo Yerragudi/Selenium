@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.dxc.testcases.GL010_01" />
+			<class name="com.dxc.testcases.GL010_02" />
+			<class name="com.dxc.testcases.GL010_03" />
+			<class name="com.dxc.testcases.GL010_04" />
+			<class name="com.dxc.testcases.GL010_06" />
+			<class name="com.dxc.testcases.GL020_01" />
+			<class name="com.dxc.testcases.GL020_02" />
+		<!--  	<class name="com.dxc.testcases.GL010_05" />
+			<class name="com.dxc.testcases.GL010_07" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

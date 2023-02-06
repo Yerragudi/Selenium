@@ -1,0 +1,342 @@
+DEBUG	2021-06-25 15:09:29,940	0	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 15:12:54 25/06/2021 IST)
+DEBUG	2021-06-25 15:09:29,943	3	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 15:09:29,944	4	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 15:09:29,962	22	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 15:09:29,963	23	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+ERROR	2021-06-25 15:09:42,062	12122	com.dxc.testcases.GL010_01	[main]	org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-5CG016FL10', ip: '192.168.43.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\m97\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d80b8a4776c5a9af3b37afa90786974
+*** Element info: {Using=id, value=userid}
+DEBUG	2021-06-25 15:10:51,164	0	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 15:12:54 25/06/2021 IST)
+DEBUG	2021-06-25 15:10:51,166	2	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 15:10:51,167	3	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 15:10:51,189	25	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 15:10:51,190	26	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+ERROR	2021-06-25 15:11:03,047	11883	com.dxc.testcases.GL010_01	[main]	org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-5CG016FL10', ip: '192.168.43.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\m97\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cda742af8d4fbc38a51f8200214bcdf
+*** Element info: {Using=id, value=userid}
+DEBUG	2021-06-25 15:16:33,742	1561	io.github.bonigarcia.wdm.versions.VersionDetector	[main]	Detecting chrome version using online commands.properties
+DEBUG	2021-06-25 15:16:33,745	1564	io.github.bonigarcia.wdm.versions.Shell	[main]	Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+DEBUG	2021-06-25 15:16:34,027	1846	io.github.bonigarcia.wdm.versions.Shell	[main]	Result: Version=91.0.4472.114
+DEBUG	2021-06-25 15:16:34,029	1848	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 15:16:34,030	1849	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 15:16:34,032	1851	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Storing resolution chrome=91 in cache (valid until 16:16:34 25/06/2021 IST)
+DEBUG	2021-06-25 15:16:34,049	1868	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 15:16:34,051	1870	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+ERROR	2021-06-25 15:16:47,741	15560	com.dxc.testcases.GL010_01	[main]	org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-5CG016FL10', ip: '192.168.43.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\m97\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:65094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cfacc174c366afab2fcc9528fac7d1e
+*** Element info: {Using=id, value=userid}
+DEBUG	2021-06-25 15:17:17,119	0	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 16:16:34 25/06/2021 IST)
+DEBUG	2021-06-25 15:17:17,122	3	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 15:17:17,123	4	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 15:17:17,144	25	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 15:17:17,146	27	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+ERROR	2021-06-25 15:17:27,327	10208	com.dxc.testcases.GL010_01	[main]	org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-5CG016FL10', ip: '192.168.43.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\m97\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec768312a89a7a80986084bab5cc2ee9
+*** Element info: {Using=id, value=userid}
+DEBUG	2021-06-25 16:15:48,717	0	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 16:16:34 25/06/2021 IST)
+DEBUG	2021-06-25 16:15:48,722	5	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 16:15:48,724	7	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 16:15:48,765	48	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 16:15:48,768	51	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+INFO	2021-06-25 16:16:23,919	35202	com.dxc.testcases.GL010_01	[main]	Login to Application - Success.
+ERROR	2021-06-25 16:17:25,093	96376	com.dxc.testcases.GL010_01	[main]	org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <td>...</td> is not clickable at point (365, 163). Other element would receive the click: <td id="_FOpt1:_FOr1:0:_FONSr2:0:MAnt2:1:pt1:ap1:sdh2::_afrStr" class="x1fw" style="width: 100%"></td>
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-5CG016FL10', ip: '192.168.43.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\m97\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ebe916b9e1e6a8e8e32bb24c61bd172
+DEBUG	2021-06-25 16:18:26,209	0	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Removing resolution chrome=91 from cache (expired on Fri Jun 25 16:16:34 IST 2021)
+DEBUG	2021-06-25 16:18:26,240	31	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ex-00000001: preparing request execution
+DEBUG	2021-06-25 16:18:26,252	43	org.apache.hc.client5.http.protocol.RequestAddCookies	[main]	Cookie spec selected: strict
+DEBUG	2021-06-25 16:18:26,262	53	org.apache.hc.client5.http.protocol.RequestAuthCache	[main]	Auth cache not set in the context
+DEBUG	2021-06-25 16:18:26,262	53	org.apache.hc.client5.http.impl.classic.ProtocolExec	[main]	ex-00000001: target auth state: UNCHALLENGED
+DEBUG	2021-06-25 16:18:26,264	55	org.apache.hc.client5.http.impl.classic.ProtocolExec	[main]	ex-00000001: proxy auth state: UNCHALLENGED
+DEBUG	2021-06-25 16:18:26,264	55	org.apache.hc.client5.http.impl.classic.ConnectExec	[main]	ex-00000001: acquiring connection with route {s}->https://raw.githubusercontent.com:443
+DEBUG	2021-06-25 16:18:26,265	56	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ex-00000001: acquiring endpoint (3 MINUTES)
+DEBUG	2021-06-25 16:18:26,269	60	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+DEBUG	2021-06-25 16:18:26,280	71	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ex-00000001: endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG	2021-06-25 16:18:26,303	94	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ex-00000001: acquired ep-00000000
+DEBUG	2021-06-25 16:18:26,303	94	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ex-00000001: acquired endpoint ep-00000000
+DEBUG	2021-06-25 16:18:26,304	95	org.apache.hc.client5.http.impl.classic.ConnectExec	[main]	ex-00000001: opening connection {s}->https://raw.githubusercontent.com:443
+DEBUG	2021-06-25 16:18:26,305	96	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: connecting endpoint (30 SECONDS)
+DEBUG	2021-06-25 16:18:26,306	97	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+DEBUG	2021-06-25 16:18:26,770	561	org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator	[main]	http-outgoing-0: connecting to raw.githubusercontent.com/185.199.108.133:443
+DEBUG	2021-06-25 16:18:26,771	562	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
+DEBUG	2021-06-25 16:18:26,926	717	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Enabled protocols: [TLSv1.3, TLSv1.2]
+DEBUG	2021-06-25 16:18:26,927	718	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG	2021-06-25 16:18:26,927	718	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Starting handshake
+DEBUG	2021-06-25 16:18:27,985	1776	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Secure session established
+DEBUG	2021-06-25 16:18:27,986	1777	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 negotiated protocol: TLSv1.3
+DEBUG	2021-06-25 16:18:27,986	1777	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 negotiated cipher suite: TLS_AES_256_GCM_SHA384
+DEBUG	2021-06-25 16:18:27,990	1781	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+DEBUG	2021-06-25 16:18:27,991	1782	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+DEBUG	2021-06-25 16:18:27,992	1783	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+DEBUG	2021-06-25 16:18:27,997	1788	org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator	[main]	http-outgoing-0: connection established 192.168.43.97:64314<->185.199.108.133:443
+DEBUG	2021-06-25 16:18:27,997	1788	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connected http-outgoing-0
+DEBUG	2021-06-25 16:18:27,997	1788	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: endpoint connected
+DEBUG	2021-06-25 16:18:27,999	1790	org.apache.hc.client5.http.impl.classic.MainClientExec	[main]	ex-00000001: executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+DEBUG	2021-06-25 16:18:28,001	1792	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: start execution ex-00000001
+DEBUG	2021-06-25 16:18:28,002	1793	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+DEBUG	2021-06-25 16:18:28,004	1795	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+DEBUG	2021-06-25 16:18:28,004	1795	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+DEBUG	2021-06-25 16:18:28,004	1795	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> accept-encoding: gzip, deflate, br
+DEBUG	2021-06-25 16:18:28,005	1796	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> cache-control: max-age=0
+DEBUG	2021-06-25 16:18:28,005	1796	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> connection: keep-alive
+DEBUG	2021-06-25 16:18:28,005	1796	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> Host: raw.githubusercontent.com
+DEBUG	2021-06-25 16:18:28,006	1797	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+DEBUG	2021-06-25 16:18:28,006	1797	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+DEBUG	2021-06-25 16:18:28,006	1797	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+DEBUG	2021-06-25 16:18:28,006	1797	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+DEBUG	2021-06-25 16:18:28,007	1798	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+DEBUG	2021-06-25 16:18:28,007	1798	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+DEBUG	2021-06-25 16:18:28,007	1798	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "[\r][\n]"
+DEBUG	2021-06-25 16:18:28,310	2101	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG	2021-06-25 16:18:28,310	2101	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Length: 709[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "ETag: W/"176e34c141316893b4c57116358e915db99135774a91bd005078cf51d6a0a21d"[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+DEBUG	2021-06-25 16:18:28,311	2102	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-GitHub-Request-Id: 0DB0:30FB:66781:8486D:60D3F31F[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Date: Fri, 25 Jun 2021 10:48:27 GMT[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Served-By: cache-del21741-DEL[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+DEBUG	2021-06-25 16:18:28,312	2103	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Timer: S1624618108.663211,VS0,VE0[\r][\n]"
+DEBUG	2021-06-25 16:18:28,313	2104	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+DEBUG	2021-06-25 16:18:28,313	2104	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG	2021-06-25 16:18:28,313	2104	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Fastly-Request-ID: f6b1f2384e6e4cac42e3a0d00975ff197560e7a8[\r][\n]"
+DEBUG	2021-06-25 16:18:28,313	2104	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Expires: Fri, 25 Jun 2021 10:53:27 GMT[\r][\n]"
+DEBUG	2021-06-25 16:18:28,313	2104	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Source-Age: 9[\r][\n]"
+DEBUG	2021-06-25 16:18:28,313	2104	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "[\r][\n]"
+DEBUG	2021-06-25 16:18:28,320	2111	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG	2021-06-25 16:18:28,320	2111	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Connection: keep-alive
+DEBUG	2021-06-25 16:18:28,320	2111	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Length: 709
+DEBUG	2021-06-25 16:18:28,320	2111	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Cache-Control: max-age=300
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << ETag: W/"176e34c141316893b4c57116358e915db99135774a91bd005078cf51d6a0a21d"
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Frame-Options: deny
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-GitHub-Request-Id: 0DB0:30FB:66781:8486D:60D3F31F
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Encoding: gzip
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Accept-Ranges: bytes
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Date: Fri, 25 Jun 2021 10:48:27 GMT
+DEBUG	2021-06-25 16:18:28,321	2112	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Via: 1.1 varnish
+DEBUG	2021-06-25 16:18:28,322	2113	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Served-By: cache-del21741-DEL
+DEBUG	2021-06-25 16:18:28,322	2113	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Cache: HIT
+DEBUG	2021-06-25 16:18:28,322	2113	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Cache-Hits: 1
+DEBUG	2021-06-25 16:18:28,322	2113	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Timer: S1624618108.663211,VS0,VE0
+DEBUG	2021-06-25 16:18:28,323	2114	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Vary: Authorization,Accept-Encoding
+DEBUG	2021-06-25 16:18:28,323	2114	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG	2021-06-25 16:18:28,323	2114	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Fastly-Request-ID: f6b1f2384e6e4cac42e3a0d00975ff197560e7a8
+DEBUG	2021-06-25 16:18:28,323	2114	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Expires: Fri, 25 Jun 2021 10:53:27 GMT
+DEBUG	2021-06-25 16:18:28,324	2115	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Source-Age: 9
+DEBUG	2021-06-25 16:18:28,335	2126	org.apache.hc.client5.http.impl.classic.MainClientExec	[main]	ex-00000001: connection can be kept alive for 3 MINUTES
+DEBUG	2021-06-25 16:18:28,354	2145	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\QUj%[0x2][[0xffffffa9][0xffffffa6]i[0x12][0xf]4[0xffffffa3][0xffffffdd]4[0x10][0xc][0xffffffda]n[0xffffff93][0xfffffffc][0xffffffe2]&7[0xffffffc1]R[0x12]#;@[0xffffffbb]_?[0xffffffdb][0xfffffff9][0x18][0x9][0xffffffc9]`[\r]}[0xffffff8b][0xffffffed][0xffffffeb]s[0xffffff8e][0xffffffef]=[0xffffff8e][0xffffffef][0x19][0xffffffd8]<[0xc]i[0xffffffe4]JpiL[0xffffff9f][0xffffffa8][0xffffffc4][0xffffffd6][0x19][0xffffffdc]/[0xffffff99][0x4][0xffffff8f][0x5][0x8][0xe][0xffffff8f]b[0xffffffca]"[0x9][0xfffffff1]R[0xf][0xffffffd2][0xffffffd0][0xffffff98][0xffffffc3][0x13][0x2]>[0xffffffa3][0xffffffb3][0xffffff8e][0xffffffd1][0x5][0x16][0xffffff99]e[0xffffffb9][0xffffffc4] [0xffffffd0][0x3].\[0x14]:[0xffffffc8][0xffffffc5][0x18][0xffffff9d][0xffffffd8],nPH[0xffffffc6][0xffffffd5][0xffffff9a][0x7][0xffffffa8][0xffffffbe]}[0xffffff81][0x18][0xffffffc1][0xffffff93][0xffffffe0][[0xffffffa9][0x16][0x14][0xffffffe5][0xffffff85][0xffffffbd][0x14]<[0xffffffc4][0xe][0xffffffdc]2[0xffffff81][0x1e][0x7f][0xffffffee][0xffffffc0]t[0xffffff85][0xffffff82]v`[0xffffffe4][0xfffffffa]j[0xffffffd6][0xffffffac][0xffffffb2]ux[0xffffffa9][0xfffffff1]][0xffffffe6]y(0[0xffffff8a][0xffffff81][0xffffffeb][0xffffff98][0xffffff98]E>[0xffffffc8][0x17][0x19]c([0xffffffe1][0xffffffe2][0x7][0xffffff8b]\[0xffffff85][0xffffffda][0xffffff81]1[0xffffff8b][0xffffffd6][\n]"
+DEBUG	2021-06-25 16:18:28,355	2146	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "fB[0x1d][0xffffff98]..[[0xffffff8a]#[0xffffffa1]h[0xffffffa5][0xffffffc7][0xffffffe8]:f[0xffffffd8][0xffffffdd]&[0x1b][0xffffffba][0xffffffef][0xffffffde][0xf][0xffffff9c][0xffffffd0][0xffffffed][0xffffffaa]SA[0xffffffcf][0xffffff86]m[0xffffffc8][0x1c][0xffffff93][0x12][0xffffff93][0xffffff86][0xffffffed]R[0xfffffff1]ADC[0x1c][0xffffffb4][0xffffffcf]g[0xfffffff3][0xffffffe9][0xffffffdd]|8[0xffffffb9][0xfffffffd]:[0x1e]-.~~[0xfffffffc]p[0xfffffff9][0xffffff89][0xc][0x8]9'[0xffffffe4][0xffffff8e]s?@B[0x12][0x1e]B[0xffffff86][0xffffffab]U[0xffffffc0][0x1c][0xffffffa5][0xffffff8f]G[0xffffff84][0xffffffa4]l[\n]"
+DEBUG	2021-06-25 16:18:28,356	2147	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "[0xffffffbe][\r]>[0xffffffc6][0xfffffff0][0xffffff98]&[0xffffffa4][0xffffffb7][0xffffffa1][0xffffffc1][0xffffffba]^[0xffffffd4][0xffffffd5][0xffffff91][0xffffffa2][0xffffffc6]S{8[0x1e][0xffffffce]f[0xffffff9f][0xffffff87][0xfffffff7][0xffffffc3][0xffffffb7][0xffffffd4][0xffffffd3][0x7f]E[0xffffff92][0xffffffde]R[0xffffffcf][0xfffffff5]`>[0xffffffba][0xffffff83][0xffffffef][0xf][0xffffffa3][0xfffffff9]/[0xfffffff8][0xfffffff2][0xffffffcd]~ [0xb][0xffffffee][0xffffffc5][*0cK[0xffffffc9]n[0xffffffc6]7H[0x1d][0xffffff83][0xffffff97]y[0xffffffb1]U[0x6][\r][0xffffffb4]c[0xffffffb4][0xf]|[0xffffffb3][0xffffffd5]J[0xffffffa6][0xffffffc1][0xffffffb2][0xffffffea]6[0xffffff84][0xffffffd4][0xffffffd1][0xffffffe1][0xffffffbd][0xffffff9d][0xffffff83][0xffffffc8]^[0xffffffc2][0xffffff9b][0xffffff9a][0xffffffad]KW[0xffffffab][0xffffff9e][0xffffffad].[0xffffff91]r[0xffffffab][0xffffffec])/N[0x17][0xffffffc5][0xffffff80]]te[0xffffffd1][0xffffffd4][0xfffffffd]9[0xffffff91][0xffffff97][0xffffff8c][0xffffff9b][0xffffff99]4[0xffffffcb][0xffffffff][0xffffff84][0xffffffff]fA@3[0x12]B2[0xfffffff4]CI[0xffffffdf]Sq[0xffffffac]+k[0xffffffaf][0xffffffca][0xffffffe9][0xffffffa4][0xfffffff4]w[0xc][0xffffffd0].: %)[0xffffff93][0xffffffb5][0xffffffb5][0x7][0xffffffec][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]re3[0xfffffffc][0xffffffdc][0xb][0xffffffe9][0x4]X[0xffffff9b][0xfffffffd][0xffffffa0][0xffffffca][0xfffffffa][0xffffffa7],U[0xffffff95][0xffffffdf][0xffffffc5]R[0xffffffc5][0xffffffd6][0xffffffbf][0xffffffb6][0x1c][0x13][0xffffffd5][0xffffffe0][0xffffff84][0xffffffff][0xffffffa2][0x9]s[0x4][0xffffff97]*[0x13][0xffffff84]h[0xffffff9a][0xffffffd2]e[0xb][0xffffffa5][0xffffffa1];[0xffffff94][0xffffffec][0xffffffa2][0xffffffa6][0xffffffd7][0x14][0xfffffffd][\r][0xffffffe5][0xfffffff4]ko[0xfffffffe]_2[0xffffffc3][0xfffffff5][0xffffffcf][0xffffffab]o0[0xfffffff3]b[0xffffff87][0xffffffd9]NK[0xffffffcf]W[0xffffffdd]|[0x13]_Y[0xfffffff7][0xffffff9c][0xffffffd5][0xffffffd4][0xffffffb5][0xffffffaa][0xfffffffc][0xffffffc5][0x8](\|[0xfffffff3][0xffffffda][0xffffffe5],[0xffffffe6]][0xfffffffb][0x7f]7T=[0x2]3[0xffffffc1]}ACI[0xffffff88][0xffffffa1] $[0xffffffa0][0xffffffeb][0xffffffc8]Q[0xffffffbb][0xe][0xffffffa6][0xffffffbb]$[0xffffffa2]I[0xfffffff9]O&[0xffffffe2][0xffffffd8][0xffffffe7][0xffffffa7]*[0x13][\r][0xffffffa9][0xffffffaf][0x1b][0xffffff9c][0xffffffff]X[0xffffffea][0x12]w[0xffffffee]K3[0xffffffac][0xffffffb2]c[0x12]W[0xffffffe9]G[0xffffffc3]Ye[0xffffffc3]i[0x19],k[0xffffff8d]T[0x7f]U|[0xffffffe1][0xffffffd4][0xffffffc4]iL[0xffffff98][0xffffffc1]7x[0xfffffff3][0xb]Z[0x1a][0xffffffbf]?[0xffffffa7][0x16][0xffffffd4][0xffffffa4]-:[0xffffffb5][0xffffff96][0xfffffffa][0xffffff96](g:[0xffffffdc][\r]i[0xffffffc4][0xffffffdc]~[0xffffffd9][0xffffff8c][0xffffff95]6[0xffffffec];[0xffffffe6][0xffffffa9][0xffffffdb]t[0xffffff95]o[0xffffffaa][0xffffffed][0xffffff9f]tt[0xffffffa5]s3[0xffffff99]U[0xffffffe6][0xffffffb5][0xfffffff7]Q[0xffffffff][0x0][0xffffff84][0xffffffc0][0x11][0xffffffe5][0xffffffc4][0xc][0x0][0x0]"
+DEBUG	2021-06-25 16:18:28,358	2149	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: releasing valid endpoint
+DEBUG	2021-06-25 16:18:28,359	2150	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: releasing endpoint
+DEBUG	2021-06-25 16:18:28,359	2150	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+DEBUG	2021-06-25 16:18:28,361	2152	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG	2021-06-25 16:18:28,362	2153	io.github.bonigarcia.wdm.versions.VersionDetector	[main]	Detecting chrome version using online commands.properties
+DEBUG	2021-06-25 16:18:28,370	2161	io.github.bonigarcia.wdm.versions.Shell	[main]	Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+DEBUG	2021-06-25 16:18:29,014	2805	io.github.bonigarcia.wdm.versions.Shell	[main]	Result: Version=91.0.4472.114
+DEBUG	2021-06-25 16:18:29,021	2812	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 16:18:29,021	2812	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 16:18:29,027	2818	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Storing resolution chrome=91 in cache (valid until 17:18:29 25/06/2021 IST)
+DEBUG	2021-06-25 16:18:29,065	2856	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 16:18:29,068	2859	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+INFO	2021-06-25 16:19:05,504	39295	com.dxc.testcases.GL010_01	[main]	Login to Application - Success.
+ERROR	2021-06-25 16:21:42,588	196379	com.dxc.testcases.GL010_01	[main]	java.lang.Exception: com.dxc.AssertionError: Journal Completion Failed.
+DEBUG	2021-06-25 17:09:17,513	0	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 17:18:29 25/06/2021 IST)
+DEBUG	2021-06-25 17:09:17,515	2	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:09:17,516	3	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:09:17,552	39	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:09:17,554	41	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+INFO	2021-06-25 17:09:59,163	41650	com.dxc.testcases.GL010_01	[main]	Login to Application - Success.
+INFO	2021-06-25 17:12:15,761	178248	com.dxc.testcases.GL010_01	[main]	Journal Created and Completed Successfully.
+INFO	2021-06-25 17:12:39,823	202310	com.dxc.testcases.GL010_01	[main]	Test case PASS: A New Journal Created and status updated to Complete.
+INFO	2021-06-25 17:12:40,270	202757	com.dxc.testcases.GL010_01	[main]	Required Data passed to next testcases: TC2, TC3, TC4, and TC6.
+DEBUG	2021-06-25 17:12:41,520	204007	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 17:18:29 25/06/2021 IST)
+DEBUG	2021-06-25 17:12:41,523	204010	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:12:41,523	204010	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:12:41,542	204029	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:12:41,545	204032	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+DEBUG	2021-06-25 17:16:59,955	462442	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 17:18:29 25/06/2021 IST)
+DEBUG	2021-06-25 17:16:59,957	462444	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:16:59,957	462444	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:16:59,969	462456	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:16:59,970	462457	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+DEBUG	2021-06-25 17:19:09,625	592112	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Removing resolution chrome=91 from cache (expired on Fri Jun 25 17:18:29 IST 2021)
+DEBUG	2021-06-25 17:19:09,647	592134	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ex-00000001: preparing request execution
+DEBUG	2021-06-25 17:19:09,657	592144	org.apache.hc.client5.http.protocol.RequestAddCookies	[main]	Cookie spec selected: strict
+DEBUG	2021-06-25 17:19:09,664	592151	org.apache.hc.client5.http.protocol.RequestAuthCache	[main]	Auth cache not set in the context
+DEBUG	2021-06-25 17:19:09,664	592151	org.apache.hc.client5.http.impl.classic.ProtocolExec	[main]	ex-00000001: target auth state: UNCHALLENGED
+DEBUG	2021-06-25 17:19:09,665	592152	org.apache.hc.client5.http.impl.classic.ProtocolExec	[main]	ex-00000001: proxy auth state: UNCHALLENGED
+DEBUG	2021-06-25 17:19:09,665	592152	org.apache.hc.client5.http.impl.classic.ConnectExec	[main]	ex-00000001: acquiring connection with route {s}->https://raw.githubusercontent.com:443
+DEBUG	2021-06-25 17:19:09,665	592152	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ex-00000001: acquiring endpoint (3 MINUTES)
+DEBUG	2021-06-25 17:19:09,668	592155	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+DEBUG	2021-06-25 17:19:09,678	592165	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ex-00000001: endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG	2021-06-25 17:19:09,697	592184	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ex-00000001: acquired ep-00000000
+DEBUG	2021-06-25 17:19:09,697	592184	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ex-00000001: acquired endpoint ep-00000000
+DEBUG	2021-06-25 17:19:09,697	592184	org.apache.hc.client5.http.impl.classic.ConnectExec	[main]	ex-00000001: opening connection {s}->https://raw.githubusercontent.com:443
+DEBUG	2021-06-25 17:19:09,699	592186	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: connecting endpoint (30 SECONDS)
+DEBUG	2021-06-25 17:19:09,699	592186	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+DEBUG	2021-06-25 17:19:09,815	592302	org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator	[main]	http-outgoing-0: connecting to raw.githubusercontent.com/185.199.108.133:443
+DEBUG	2021-06-25 17:19:09,815	592302	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
+DEBUG	2021-06-25 17:19:09,872	592359	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Enabled protocols: [TLSv1.3, TLSv1.2]
+DEBUG	2021-06-25 17:19:09,872	592359	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG	2021-06-25 17:19:09,873	592360	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Starting handshake
+DEBUG	2021-06-25 17:19:10,560	593047	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	Secure session established
+DEBUG	2021-06-25 17:19:10,560	593047	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 negotiated protocol: TLSv1.3
+DEBUG	2021-06-25 17:19:10,561	593048	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 negotiated cipher suite: TLS_AES_256_GCM_SHA384
+DEBUG	2021-06-25 17:19:10,561	593048	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+DEBUG	2021-06-25 17:19:10,562	593049	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+DEBUG	2021-06-25 17:19:10,562	593049	org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory	[main]	 issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+DEBUG	2021-06-25 17:19:10,565	593052	org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator	[main]	http-outgoing-0: connection established 192.168.43.97:64935<->185.199.108.133:443
+DEBUG	2021-06-25 17:19:10,566	593053	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connected http-outgoing-0
+DEBUG	2021-06-25 17:19:10,566	593053	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: endpoint connected
+DEBUG	2021-06-25 17:19:10,568	593055	org.apache.hc.client5.http.impl.classic.MainClientExec	[main]	ex-00000001: executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+DEBUG	2021-06-25 17:19:10,569	593056	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: start execution ex-00000001
+DEBUG	2021-06-25 17:19:10,570	593057	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+DEBUG	2021-06-25 17:19:10,571	593058	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+DEBUG	2021-06-25 17:19:10,571	593058	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+DEBUG	2021-06-25 17:19:10,571	593058	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> accept-encoding: gzip, deflate, br
+DEBUG	2021-06-25 17:19:10,571	593058	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> cache-control: max-age=0
+DEBUG	2021-06-25 17:19:10,572	593059	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> connection: keep-alive
+DEBUG	2021-06-25 17:19:10,572	593059	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 >> Host: raw.githubusercontent.com
+DEBUG	2021-06-25 17:19:10,572	593059	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+DEBUG	2021-06-25 17:19:10,572	593059	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+DEBUG	2021-06-25 17:19:10,572	593059	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+DEBUG	2021-06-25 17:19:10,572	593059	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+DEBUG	2021-06-25 17:19:10,573	593060	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+DEBUG	2021-06-25 17:19:10,573	593060	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+DEBUG	2021-06-25 17:19:10,573	593060	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 >> "[\r][\n]"
+DEBUG	2021-06-25 17:19:10,755	593242	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG	2021-06-25 17:19:10,755	593242	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG	2021-06-25 17:19:10,755	593242	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Length: 709[\r][\n]"
+DEBUG	2021-06-25 17:19:10,755	593242	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "ETag: W/"176e34c141316893b4c57116358e915db99135774a91bd005078cf51d6a0a21d"[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-GitHub-Request-Id: 0DB0:30FB:66781:8486D:60D3F31F[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+DEBUG	2021-06-25 17:19:10,756	593243	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Date: Fri, 25 Jun 2021 11:49:10 GMT[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Served-By: cache-del21740-DEL[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Timer: S1624621750.181054,VS0,VE0[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+DEBUG	2021-06-25 17:19:10,757	593244	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG	2021-06-25 17:19:10,758	593245	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "X-Fastly-Request-ID: 7724c5814e4615801aa95a2a8dc8ef9daa717165[\r][\n]"
+DEBUG	2021-06-25 17:19:10,758	593245	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Expires: Fri, 25 Jun 2021 11:54:10 GMT[\r][\n]"
+DEBUG	2021-06-25 17:19:10,758	593245	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "Source-Age: 78[\r][\n]"
+DEBUG	2021-06-25 17:19:10,758	593245	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "[\r][\n]"
+DEBUG	2021-06-25 17:19:10,763	593250	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Connection: keep-alive
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Length: 709
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Cache-Control: max-age=300
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << ETag: W/"176e34c141316893b4c57116358e915db99135774a91bd005078cf51d6a0a21d"
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG	2021-06-25 17:19:10,764	593251	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Frame-Options: deny
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-GitHub-Request-Id: 0DB0:30FB:66781:8486D:60D3F31F
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Content-Encoding: gzip
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Accept-Ranges: bytes
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Date: Fri, 25 Jun 2021 11:49:10 GMT
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Via: 1.1 varnish
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Served-By: cache-del21740-DEL
+DEBUG	2021-06-25 17:19:10,765	593252	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Cache: HIT
+DEBUG	2021-06-25 17:19:10,766	593253	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Cache-Hits: 1
+DEBUG	2021-06-25 17:19:10,766	593253	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Timer: S1624621750.181054,VS0,VE0
+DEBUG	2021-06-25 17:19:10,766	593253	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Vary: Authorization,Accept-Encoding
+DEBUG	2021-06-25 17:19:10,766	593253	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG	2021-06-25 17:19:10,766	593253	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << X-Fastly-Request-ID: 7724c5814e4615801aa95a2a8dc8ef9daa717165
+DEBUG	2021-06-25 17:19:10,766	593253	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Expires: Fri, 25 Jun 2021 11:54:10 GMT
+DEBUG	2021-06-25 17:19:10,766	593253	org.apache.hc.client5.http.headers	[main]	http-outgoing-0 << Source-Age: 78
+DEBUG	2021-06-25 17:19:10,775	593262	org.apache.hc.client5.http.impl.classic.MainClientExec	[main]	ex-00000001: connection can be kept alive for 3 MINUTES
+DEBUG	2021-06-25 17:19:10,796	593283	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\QUj%[0x2][[0xffffffa9][0xffffffa6]i[0x12][0xf]4[0xffffffa3][0xffffffdd]4[0x10][0xc][0xffffffda]n[0xffffff93][0xfffffffc][0xffffffe2]&7[0xffffffc1]R[0x12]#;@[0xffffffbb]_?[0xffffffdb][0xfffffff9][0x18][0x9][0xffffffc9]`[\r]}[0xffffff8b][0xffffffed][0xffffffeb]s[0xffffff8e][0xffffffef]=[0xffffff8e][0xffffffef][0x19][0xffffffd8]<[0xc]i[0xffffffe4]JpiL[0xffffff9f][0xffffffa8][0xffffffc4][0xffffffd6][0x19][0xffffffdc]/[0xffffff99][0x4][0xffffff8f][0x5][0x8][0xe][0xffffff8f]b[0xffffffca]"[0x9][0xfffffff1]R[0xf][0xffffffd2][0xffffffd0][0xffffff98][0xffffffc3][0x13][0x2]>[0xffffffa3][0xffffffb3][0xffffff8e][0xffffffd1][0x5][0x16][0xffffff99]e[0xffffffb9][0xffffffc4] [0xffffffd0][0x3].\[0x14]:[0xffffffc8][0xffffffc5][0x18][0xffffff9d][0xffffffd8],nPH[0xffffffc6][0xffffffd5][0xffffff9a][0x7][0xffffffa8][0xffffffbe]}[0xffffff81][0x18][0xffffffc1][0xffffff93][0xffffffe0][[0xffffffa9][0x16][0x14][0xffffffe5][0xffffff85][0xffffffbd][0x14]<[0xffffffc4][0xe][0xffffffdc]2[0xffffff81][0x1e][0x7f][0xffffffee][0xffffffc0]t[0xffffff85][0xffffff82]v`[0xffffffe4][0xfffffffa]j[0xffffffd6][0xffffffac][0xffffffb2]ux[0xffffffa9][0xfffffff1]][0xffffffe6]y(0[0xffffff8a][0xffffff81][0xffffffeb][0xffffff98][0xffffff98]E>[0xffffffc8][0x17][0x19]c([0xffffffe1][0xffffffe2][0x7][0xffffff8b]\[0xffffff85][0xffffffda][0xffffff81]1[0xffffff8b][0xffffffd6][\n]"
+DEBUG	2021-06-25 17:19:10,797	593284	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "fB[0x1d][0xffffff98]..[[0xffffff8a]#[0xffffffa1]h[0xffffffa5][0xffffffc7][0xffffffe8]:f[0xffffffd8][0xffffffdd]&[0x1b][0xffffffba][0xffffffef][0xffffffde][0xf][0xffffff9c][0xffffffd0][0xffffffed][0xffffffaa]SA[0xffffffcf][0xffffff86]m[0xffffffc8][0x1c][0xffffff93][0x12][0xffffff93][0xffffff86][0xffffffed]R[0xfffffff1]ADC[0x1c][0xffffffb4][0xffffffcf]g[0xfffffff3][0xffffffe9][0xffffffdd]|8[0xffffffb9][0xfffffffd]:[0x1e]-.~~[0xfffffffc]p[0xfffffff9][0xffffff89][0xc][0x8]9'[0xffffffe4][0xffffff8e]s?@B[0x12][0x1e]B[0xffffff86][0xffffffab]U[0xffffffc0][0x1c][0xffffffa5][0xffffff8f]G[0xffffff84][0xffffffa4]l[\n]"
+DEBUG	2021-06-25 17:19:10,797	593284	org.apache.hc.client5.http.wire	[main]	http-outgoing-0 << "[0xffffffbe][\r]>[0xffffffc6][0xfffffff0][0xffffff98]&[0xffffffa4][0xffffffb7][0xffffffa1][0xffffffc1][0xffffffba]^[0xffffffd4][0xffffffd5][0xffffff91][0xffffffa2][0xffffffc6]S{8[0x1e][0xffffffce]f[0xffffff9f][0xffffff87][0xfffffff7][0xffffffc3][0xffffffb7][0xffffffd4][0xffffffd3][0x7f]E[0xffffff92][0xffffffde]R[0xffffffcf][0xfffffff5]`>[0xffffffba][0xffffff83][0xffffffef][0xf][0xffffffa3][0xfffffff9]/[0xfffffff8][0xfffffff2][0xffffffcd]~ [0xb][0xffffffee][0xffffffc5][*0cK[0xffffffc9]n[0xffffffc6]7H[0x1d][0xffffff83][0xffffff97]y[0xffffffb1]U[0x6][\r][0xffffffb4]c[0xffffffb4][0xf]|[0xffffffb3][0xffffffd5]J[0xffffffa6][0xffffffc1][0xffffffb2][0xffffffea]6[0xffffff84][0xffffffd4][0xffffffd1][0xffffffe1][0xffffffbd][0xffffff9d][0xffffff83][0xffffffc8]^[0xffffffc2][0xffffff9b][0xffffff9a][0xffffffad]KW[0xffffffab][0xffffff9e][0xffffffad].[0xffffff91]r[0xffffffab][0xffffffec])/N[0x17][0xffffffc5][0xffffff80]]te[0xffffffd1][0xffffffd4][0xfffffffd]9[0xffffff91][0xffffff97][0xffffff8c][0xffffff9b][0xffffff99]4[0xffffffcb][0xffffffff][0xffffff84][0xffffffff]fA@3[0x12]B2[0xfffffff4]CI[0xffffffdf]Sq[0xffffffac]+k[0xffffffaf][0xffffffca][0xffffffe9][0xffffffa4][0xfffffff4]w[0xc][0xffffffd0].: %)[0xffffff93][0xffffffb5][0xffffffb5][0x7][0xffffffec][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]re3[0xfffffffc][0xffffffdc][0xb][0xffffffe9][0x4]X[0xffffff9b][0xfffffffd][0xffffffa0][0xffffffca][0xfffffffa][0xffffffa7],U[0xffffff95][0xffffffdf][0xffffffc5]R[0xffffffc5][0xffffffd6][0xffffffbf][0xffffffb6][0x1c][0x13][0xffffffd5][0xffffffe0][0xffffff84][0xffffffff][0xffffffa2][0x9]s[0x4][0xffffff97]*[0x13][0xffffff84]h[0xffffff9a][0xffffffd2]e[0xb][0xffffffa5][0xffffffa1];[0xffffff94][0xffffffec][0xffffffa2][0xffffffa6][0xffffffd7][0x14][0xfffffffd][\r][0xffffffe5][0xfffffff4]ko[0xfffffffe]_2[0xffffffc3][0xfffffff5][0xffffffcf][0xffffffab]o0[0xfffffff3]b[0xffffff87][0xffffffd9]NK[0xffffffcf]W[0xffffffdd]|[0x13]_Y[0xfffffff7][0xffffff9c][0xffffffd5][0xffffffd4][0xffffffb5][0xffffffaa][0xfffffffc][0xffffffc5][0x8](\|[0xfffffff3][0xffffffda][0xffffffe5],[0xffffffe6]][0xfffffffb][0x7f]7T=[0x2]3[0xffffffc1]}ACI[0xffffff88][0xffffffa1] $[0xffffffa0][0xffffffeb][0xffffffc8]Q[0xffffffbb][0xe][0xffffffa6][0xffffffbb]$[0xffffffa2]I[0xfffffff9]O&[0xffffffe2][0xffffffd8][0xffffffe7][0xffffffa7]*[0x13][\r][0xffffffa9][0xffffffaf][0x1b][0xffffff9c][0xffffffff]X[0xffffffea][0x12]w[0xffffffee]K3[0xffffffac][0xffffffb2]c[0x12]W[0xffffffe9]G[0xffffffc3]Ye[0xffffffc3]i[0x19],k[0xffffff8d]T[0x7f]U|[0xffffffe1][0xffffffd4][0xffffffc4]iL[0xffffff98][0xffffffc1]7x[0xfffffff3][0xb]Z[0x1a][0xffffffbf]?[0xffffffa7][0x16][0xffffffd4][0xffffffa4]-:[0xffffffb5][0xffffff96][0xfffffffa][0xffffff96](g:[0xffffffdc][\r]i[0xffffffc4][0xffffffdc]~[0xffffffd9][0xffffff8c][0xffffff95]6[0xffffffec];[0xffffffe6][0xffffffa9][0xffffffdb]t[0xffffff95]o[0xffffffaa][0xffffffed][0xffffff9f]tt[0xffffffa5]s3[0xffffff99]U[0xffffffe6][0xffffffb5][0xfffffff7]Q[0xffffffff][0x0][0xffffff84][0xffffffc0][0x11][0xffffffe5][0xffffffc4][0xc][0x0][0x0]"
+DEBUG	2021-06-25 17:19:10,799	593286	org.apache.hc.client5.http.impl.classic.InternalHttpClient	[main]	ep-00000000: releasing valid endpoint
+DEBUG	2021-06-25 17:19:10,799	593286	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: releasing endpoint
+DEBUG	2021-06-25 17:19:10,800	593287	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+DEBUG	2021-06-25 17:19:10,801	593288	org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager	[main]	ep-00000000: connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG	2021-06-25 17:19:10,802	593289	io.github.bonigarcia.wdm.versions.VersionDetector	[main]	Detecting chrome version using online commands.properties
+DEBUG	2021-06-25 17:19:10,807	593294	io.github.bonigarcia.wdm.versions.Shell	[main]	Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+DEBUG	2021-06-25 17:19:11,379	593866	io.github.bonigarcia.wdm.versions.Shell	[main]	Result: Version=91.0.4472.114
+DEBUG	2021-06-25 17:19:11,382	593869	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:19:11,382	593869	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:19:11,386	593873	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Storing resolution chrome=91 in cache (valid until 18:19:11 25/06/2021 IST)
+DEBUG	2021-06-25 17:19:11,400	593887	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:19:11,401	593888	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+DEBUG	2021-06-25 17:20:49,084	691571	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 18:19:11 25/06/2021 IST)
+DEBUG	2021-06-25 17:20:49,086	691573	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:20:49,087	691574	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:20:49,103	691590	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:20:49,104	691591	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+DEBUG	2021-06-25 17:25:25,222	967709	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 18:19:11 25/06/2021 IST)
+DEBUG	2021-06-25 17:25:25,223	967710	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:25:25,223	967710	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:25:25,232	967719	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:25:25,232	967719	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+DEBUG	2021-06-25 17:30:23,146	1265633	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 18:19:11 25/06/2021 IST)
+DEBUG	2021-06-25 17:30:23,148	1265635	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:30:23,148	1265635	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:30:23,157	1265644	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:30:23,158	1265645	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+DEBUG	2021-06-25 17:33:08,868	1431355	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 18:19:11 25/06/2021 IST)
+DEBUG	2021-06-25 17:33:08,869	1431356	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:33:08,870	1431357	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:33:08,881	1431368	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:33:08,882	1431369	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+DEBUG	2021-06-25 17:38:45,939	1768426	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome=91 in cache (valid until 18:19:11 25/06/2021 IST)
+DEBUG	2021-06-25 17:38:45,939	1768426	io.github.bonigarcia.wdm.cache.ResolutionCache	[main]	Resolution chrome91=91.0.4472.101 in cache (valid until 14:12:54 26/06/2021 IST)
+INFO	2021-06-25 17:38:45,940	1768427	io.github.bonigarcia.wdm.WebDriverManager	[main]	Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+DEBUG	2021-06-25 17:38:45,952	1768439	io.github.bonigarcia.wdm.WebDriverManager	[main]	Driver chromedriver 91.0.4472.101 found in cache
+INFO	2021-06-25 17:38:45,953	1768440	io.github.bonigarcia.wdm.WebDriverManager	[main]	Exporting webdriver.chrome.driver as C:\Users\m97\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
